@@ -45,7 +45,7 @@ export function Dropzone() {
             <div {...getRootProps<any>({ style })}>
                 <div {...getRootProps({className: 'dropzone'})}>
                     <input {...getInputProps()} />
-                    <p>Drag 'n' drop some .csv files here, or click to select files</p>
+                    <p>Drag n drop some .csv files here, or click to select files</p>
                 </div>
                 <aside>
                     <h4>Files</h4>
