@@ -1,0 +1,48 @@
+@import './mixin';
+
+
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: white;
+    padding: 1rem;
+}
+
+.nav > div {
+    width: 100%;
+
+    @include min-breakpoint('lg') {
+        max-width: 935px;
+    }
+    
+    display: flex;
+    align-items: center;
+    
+    /* border: 1px solid rgba(0, 0, 0, 0.2); */
+}
+
+.logo {
+    padding-right: 0.5rem;
+}
+
+.title {
+    margin: 0;
+}
+
+
+.right {
+    margin-left: auto;
+
+}
+
+.left {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}

@@ -1,0 +1,18 @@
+.Dropzone {
+    button {
+      background-color: $color-blue;
+      border: none;
+      color: white;
+      padding: 0.5rem 1rem;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    
+      width: 50%;
+    
+      &.primary {
+        background-color: $color-green;
+      }
+    }
+}
